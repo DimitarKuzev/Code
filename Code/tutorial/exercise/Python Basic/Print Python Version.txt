@@ -1,0 +1,16 @@
+En
+Write a Python program to get the Python version you are using.
+
+A string containing the version number of the Python interpreter 
+plus additional information on the build number and compiler used. 
+This string is displayed when the interactive interpreter is started.
+
+Bg
+Напишете програма на Python, където получавате версията на Python, която използвате.
+
+Низ, съдържащ номера на версията на интерпретатора на Python 
+плюс допълнителна информация за номера на компилация и използвания компилатор. 
+Този низ се показва при стартиране на интерактивния интерпретатор.
+
+Solver:
+Python_version.py

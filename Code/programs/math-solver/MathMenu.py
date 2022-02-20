@@ -4,7 +4,6 @@
 from logging import root
 from tkinter import *
 
-from click import command
 
 #########################################
 # DEFINITIONS 
@@ -13,8 +12,7 @@ def  donothing():
     filewin = Toplevel(root)
     button = Button(filewin, text="Do nothing button")
     button.pack()
-    
-##########################################
+
 # MENU
 
 root = Tk()

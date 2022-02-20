@@ -1,0 +1,31 @@
+Convert temperatures to and from celsius, fahrenheit
+Преобразувайте температурите в и от Целзий, Фаренхайт
+
+En
+Write a Python program to convert temperatures to and from celsius, fahrenheit.
+
+Python: Centigrade and Fahrenheit Temperatures :
+
+The centigrade scale, which is also called the Celsius scale, 
+was developed by Swedish astronomer Andres Celsius. 
+In the centigrade scale, water freezes at 0 degrees and boils at 100 degrees. 
+The centigrade to Fahrenheit conversion formula is:
+C = (5/9) * (F - 32)
+Fahrenheit and centigrade are two temperature scales in use today. 
+The Fahrenheit scale was developed by the German physicist Daniel Gabriel Fahrenheit . 
+In the Fahrenheit scale, water freezes at 32 degrees and boils at 212 degrees.
+
+Bg
+
+Напишете програма на Python за преобразуване на температури в и от Целзий, Фаренхайт.
+
+Python: Температури по Целзий и Фаренхайт:
+
+Целзийската скала, която също се нарича скала на Целзий, 
+е разработена от шведския астроном Андрес Целзий. 
+В градусовата скала водата замръзва при 0 градуса и кипи при 100 градуса. 
+Формулата за преобразуване по Целзий във Фаренхайт е:
+C = (5/9) * (F - 32)
+Фаренхайт и Целзий са две температурни скали, използвани днес. 
+Скалата на Фаренхайт е разработена от немския физик Даниел Габриел Фаренхайт. 
+В скалата на Фаренхайт водата замръзва при 32 градуса и кипи при 212 градуса.
