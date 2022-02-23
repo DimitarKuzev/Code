@@ -387,7 +387,7 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 myFont = font.Font(family='Helvetica', size=30)
 
 ################################################
-# Create 6 in 1 toolbar...
+# Create 9 in 1 toolbar...
 toolbar = Frame(root, bd=1, relief=RAISED) 
 
 ####  IMAGE ON BUTTON  ####################
@@ -401,86 +401,408 @@ img1 = PhotoImage(file = r"D:\Code\tkinter\icon\Symbol Palettes\relational_symbo
 # Resize image to fit on button
 # img1.subsample(1, 2)
 
-b1 = Button(toolbar, compound= LEFT, text=" ",image=img1, command=donothing)
-b1.pack(side=LEFT, padx=0, pady=0)
+# Toolbar 
 
-b2 = Button(toolbar, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
-b2['font'] = myFont
-b2.pack(side=LEFT, padx=0, pady=0)
+btn1 = Button(toolbar, compound= LEFT, text=" ",image=img1, command=donothing)
+btn1.pack(side=LEFT, padx=0, pady=0)
+
+btn2 = Button(toolbar, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn2['font'] = myFont
+btn2.pack(side=LEFT, padx=0, pady=0)
 
 b3 = Button(toolbar, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
 b3['font'] = myFont
 b3.pack(side=LEFT, padx=0, pady=0)
 
-b4 = Button(toolbar, relief=FLAT, compound= LEFT, text="", command=donothing)
-b4['font'] = myFont
-b4.pack(side=LEFT, padx=0, pady=0)
+btn4 = Button(toolbar, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn4['font'] = myFont
+btn4.pack(side=LEFT, padx=0, pady=0)
 
-b5 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b5.pack(side=LEFT, padx=0, pady=0)
+btn5 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn5.pack(side=LEFT, padx=0, pady=0)
 
-b6 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b6.pack(side=LEFT, padx=0, pady=0)
+btn6 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn6.pack(side=LEFT, padx=0, pady=0)
 
-b7 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b7.pack(side=LEFT, padx=0, pady=0)
+btn7 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn7.pack(side=LEFT, padx=0, pady=0)
 
-b8 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b8.pack(side=LEFT, padx=0, pady=0)
+btn8 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn8.pack(side=LEFT, padx=0, pady=0)
 
-b9 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b9.pack(side=LEFT, padx=0, pady=0)
+btn9 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn9.pack(side=LEFT, padx=0, pady=0)
 
-b10 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b10.pack(side=LEFT, padx=0, pady=0)
+btn10 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn10.pack(side=LEFT, padx=0, pady=0)
 
+btn11 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn11.pack(side=LEFT, padx=0, pady=0)
+
+btn12 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn12.pack(side=LEFT, padx=0, pady=0)
+
+btn13 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn13.pack(side=LEFT, padx=0, pady=0)
+
+btn14 = Button(toolbar, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn14.pack(side=LEFT, padx=0, pady=0)
+
+
+# Toolbar 1
 
 toolbar1 = Frame(root, bd=1, relief=RAISED)
 toolbar1.pack(side=TOP, fill=X)
 
-b11 = Button(toolbar1, relief=FLAT, compound= LEFT, text="√", command=donothing)
-b11['font'] = myFont
-b11.pack(side=LEFT, padx=0, pady=0)
+btn01 = Button(toolbar1, relief=FLAT, compound= LEFT, text="√", command=donothing)
+btn01['font'] = myFont
+btn01.pack(side=LEFT, padx=0, pady=0)
 
-b12 = Button(toolbar1, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
-b12['font'] = myFont
-b12.pack(side=LEFT, padx=0, pady=0)
+btn02 = Button(toolbar1, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn02['font'] = myFont
+btn02.pack(side=LEFT, padx=0, pady=0)
 
-b13 = Button(toolbar1, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
-b13['font'] = myFont
-b13.pack(side=LEFT, padx=0, pady=0)
+btn03 = Button(toolbar1, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+btn03['font'] = myFont
+btn03.pack(side=LEFT, padx=0, pady=0)
 
-b14 = Button(toolbar1, relief=FLAT, compound= LEFT, text="", command=donothing)
-b14['font'] = myFont
-b14.pack(side=LEFT, padx=0, pady=0)
+btn04 = Button(toolbar1, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn04['font'] = myFont
+btn04.pack(side=LEFT, padx=0, pady=0)
 
-b15 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b15.pack(side=LEFT, padx=0, pady=0)
+btn05 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn05.pack(side=LEFT, padx=0, pady=0)
 
-b16 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b16.pack(side=LEFT, padx=0, pady=0)
+btn06 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn06.pack(side=LEFT, padx=0, pady=0)
 
-b17 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b17.pack(side=LEFT, padx=0, pady=0)
+btn07 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn07.pack(side=LEFT, padx=0, pady=0)
 
-b18 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b18.pack(side=LEFT, padx=0, pady=0)
+btn08 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn08.pack(side=LEFT, padx=0, pady=0)
 
-b19 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b19.pack(side=LEFT, padx=0, pady=0)
+btn09 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn09.pack(side=LEFT, padx=0, pady=0)
 
-b20 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
-b20.pack(side=LEFT, padx=0, pady=0)
+btn010 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn010.pack(side=LEFT, padx=0, pady=0)
 
-toolbar.pack(side=TOP, fill=X)
+toolbar1.pack(side=TOP, fill=X)
 root.config(menu=menubar)
     
 
-    
-  
+ # Toolbar 2
 
+toolbar2 = Frame(root, bd=1, relief=RAISED)
+toolbar2.pack(side=TOP, fill=X)
 
+btn11 = Button(toolbar2, relief=FLAT, compound= LEFT, text="√", command=donothing)
+btn11['font'] = myFont
+btn11.pack(side=LEFT, padx=0, pady=0)
 
+btn12 = Button(toolbar2, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn12['font'] = myFont
+btn12.pack(side=LEFT, padx=0, pady=0)
+
+btn13 = Button(toolbar2, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+btn13['font'] = myFont
+btn13.pack(side=LEFT, padx=0, pady=0)
+
+btn14 = Button(toolbar2, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn14['font'] = myFont
+btn14.pack(side=LEFT, padx=0, pady=0)
+
+btn15 = Button(toolbar2, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn15.pack(side=LEFT, padx=0, pady=0)
+
+btn16 = Button(toolbar1, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn16.pack(side=LEFT, padx=0, pady=0)
+
+toolbar2.pack(side=TOP, fill=X)
+root.config(menu=menubar)
+       
+# Toolbar 3
+
+toolbar3 = Frame(root, bd=1, relief=RAISED)
+toolbar3.pack(side=TOP, fill=X)
+
+btn17 = Button(toolbar3, relief=FLAT, compound= LEFT, text="√", command=donothing)
+btn17['font'] = myFont
+btn17.pack(side=LEFT, padx=0, pady=0)
+
+btn18 = Button(toolbar3, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn18['font'] = myFont
+btn18.pack(side=LEFT, padx=0, pady=0)
+
+btn19 = Button(toolbar3, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+btn19['font'] = myFont
+btn19.pack(side=LEFT, padx=0, pady=0)
+
+btn20 = Button(toolbar3, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn20['font'] = myFont
+btn20.pack(side=LEFT, padx=0, pady=0)
+
+btn21 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn21.pack(side=LEFT, padx=0, pady=0)
+
+btn22 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn22.pack(side=LEFT, padx=0, pady=0)
+
+btn23 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn23.pack(side=LEFT, padx=0, pady=0)
+
+btn24 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn24.pack(side=LEFT, padx=0, pady=0)
+
+btn25 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn25.pack(side=LEFT, padx=0, pady=0)
+
+btn26 = Button(toolbar3, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn26.pack(side=LEFT, padx=0, pady=0)
+
+toolbar3.pack(side=TOP, fill=X)
+root.config(menu=menubar)  
+
+# Toolbar 4
+
+toolbar4 = Frame(root, bd=1, relief=RAISED)
+toolbar4.pack(side=TOP, fill=X)
+
+b1 = Button(toolbar4, relief=FLAT, compound= LEFT, text="√", command=donothing)
+b1['font'] = myFont
+b1.pack(side=LEFT, padx=0, pady=0)
+
+b2 = Button(toolbar4, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+b2['font'] = myFont
+b2.pack(side=LEFT, padx=0, pady=0)
+
+b3 = Button(toolbar4, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+b3['font'] = myFont
+b3.pack(side=LEFT, padx=0, pady=0)
+
+b4 = Button(toolbar4, relief=FLAT, compound= LEFT, text="", command=donothing)
+b4['font'] = myFont
+b4.pack(side=LEFT, padx=0, pady=0)
+
+b5 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b5.pack(side=LEFT, padx=0, pady=0)
+
+b6 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b6.pack(side=LEFT, padx=0, pady=0)
+
+b7 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b7.pack(side=LEFT, padx=0, pady=0)
+
+b8 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b8.pack(side=LEFT, padx=0, pady=0)
+
+b9 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b9.pack(side=LEFT, padx=0, pady=0)
+
+b10 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b10.pack(side=LEFT, padx=0, pady=0)
+
+b11 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b11.pack(side=LEFT, padx=0, pady=0)
+
+b12 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b12.pack(side=LEFT, padx=0, pady=0)
+
+b13 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b13.pack(side=LEFT, padx=0, pady=0)
+
+b14 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b14.pack(side=LEFT, padx=0, pady=0)
+
+b15 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b15.pack(side=LEFT, padx=0, pady=0)
+
+b16 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b16.pack(side=LEFT, padx=0, pady=0)
+
+b17 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b17.pack(side=LEFT, padx=0, pady=0)
+
+b18 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b18.pack(side=LEFT, padx=0, pady=0)
+
+b19 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b19.pack(side=LEFT, padx=0, pady=0)
+
+b20 = Button(toolbar4, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b20.pack(side=LEFT, padx=0, pady=0)
+
+toolbar4.pack(side=TOP, fill=X)
+root.config(menu=menubar)
+
+# Toolbar 5
+
+toolbar5 = Frame(root, bd=1, relief=RAISED)
+toolbar5.pack(side=TOP, fill=X)
+
+b21 = Button(toolbar5, relief=FLAT, compound= LEFT, text="√", command=donothing)
+b21['font'] = myFont
+b21.pack(side=LEFT, padx=0, pady=0)
+
+b22 = Button(toolbar5, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+b22['font'] = myFont
+b22.pack(side=LEFT, padx=0, pady=0)
+
+b23 = Button(toolbar5, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+b23['font'] = myFont
+b23.pack(side=LEFT, padx=0, pady=0)
+
+b24 = Button(toolbar5, relief=FLAT, compound= LEFT, text="", command=donothing)
+b24['font'] = myFont
+b24.pack(side=LEFT, padx=0, pady=0)
+
+b25 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b25.pack(side=LEFT, padx=0, pady=0)
+
+b26 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b26.pack(side=LEFT, padx=0, pady=0)
+
+b27 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b27.pack(side=LEFT, padx=0, pady=0)
+
+b28 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b28.pack(side=LEFT, padx=0, pady=0)
+
+b29 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b29.pack(side=LEFT, padx=0, pady=0)
+
+b30 = Button(toolbar5, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b30.pack(side=LEFT, padx=0, pady=0)
+
+toolbar5.pack(side=TOP, fill=X)
+root.config(menu=menubar)
+
+# Toolbar 6
+
+toolbar6 = Frame(root, bd=1, relief=RAISED)
+toolbar6.pack(side=TOP, fill=X)
+
+btn001 = Button(toolbar6, relief=FLAT, compound= LEFT, text="√", command=donothing)
+btn001['font'] = myFont
+btn001.pack(side=LEFT, padx=0, pady=0)
+
+btn002 = Button(toolbar6, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn002['font'] = myFont
+btn002.pack(side=LEFT, padx=0, pady=0)
+
+btn003 = Button(toolbar6, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+btn003['font'] = myFont
+btn003.pack(side=LEFT, padx=0, pady=0)
+
+btn004 = Button(toolbar6, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn004['font'] = myFont
+btn004.pack(side=LEFT, padx=0, pady=0)
+
+btn005 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn005.pack(side=LEFT, padx=0, pady=0)
+
+btn006 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn006.pack(side=LEFT, padx=0, pady=0)
+
+btn007 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn007.pack(side=LEFT, padx=0, pady=0)
+
+btn008 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn008.pack(side=LEFT, padx=0, pady=0)
+
+btn009 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn009.pack(side=LEFT, padx=0, pady=0)
+
+btn0010 = Button(toolbar6, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0010.pack(side=LEFT, padx=0, pady=0)
+
+toolbar6.pack(side=TOP, fill=X)
+root.config(menu=menubar)
+
+# Toolbar 7
+
+toolbar7 = Frame(root, bd=1, relief=RAISED)
+toolbar7.pack(side=TOP, fill=X)
+
+btn0011 = Button(toolbar7, relief=FLAT, compound= LEFT, text="√", command=donothing)
+btn0011['font'] = myFont
+btn0011.pack(side=LEFT, padx=0, pady=0)
+
+btn0012 = Button(toolbar7, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+btn0012['font'] = myFont
+btn0012.pack(side=LEFT, padx=0, pady=0)
+
+btn0013 = Button(toolbar7, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+btn0013['font'] = myFont
+btn0013.pack(side=LEFT, padx=0, pady=0)
+
+btn0014 = Button(toolbar7, relief=FLAT, compound= LEFT, text="", command=donothing)
+btn0014['font'] = myFont
+btn0014.pack(side=LEFT, padx=0, pady=0)
+
+btn0015 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0015.pack(side=LEFT, padx=0, pady=0)
+
+btn0016 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0016.pack(side=LEFT, padx=0, pady=0)
+
+btn0017 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0017.pack(side=LEFT, padx=0, pady=0)
+
+btn0018 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0018.pack(side=LEFT, padx=0, pady=0)
+
+btn0019 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0019.pack(side=LEFT, padx=0, pady=0)
+
+btn0020 = Button(toolbar7, relief=FLAT, compound= LEFT, text="new", command=donothing)
+btn0020.pack(side=LEFT, padx=0, pady=0)
+
+toolbar7.pack(side=TOP, fill=X)
+root.config(menu=menubar)
+
+# Toolbar 8
+
+toolbar8 = Frame(root, bd=1, relief=RAISED)
+toolbar8.pack(side=TOP, fill=X)
+
+b31 = Button(toolbar8, relief=FLAT, compound= LEFT, text="√", command=donothing)
+b31['font'] = myFont
+b31.pack(side=LEFT, padx=0, pady=0)
+
+b32 = Button(toolbar8, relief=FLAT, compound= LEFT, text="⊏", command=donothing)
+b32['font'] = myFont
+b32.pack(side=LEFT, padx=0, pady=0)
+
+b33 = Button(toolbar8, relief=FLAT, compound= LEFT, text="⬚", command=donothing)
+b33['font'] = myFont
+b33.pack(side=LEFT, padx=0, pady=0)
+
+b34 = Button(toolbar8, relief=FLAT, compound= LEFT, text="", command=donothing)
+b34['font'] = myFont
+b34.pack(side=LEFT, padx=0, pady=0)
+
+b35 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b35.pack(side=LEFT, padx=0, pady=0)
+
+b36 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b36.pack(side=LEFT, padx=0, pady=0)
+
+b37 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b37.pack(side=LEFT, padx=0, pady=0)
+
+b38 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b38.pack(side=LEFT, padx=0, pady=0)
+
+b39 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b39.pack(side=LEFT, padx=0, pady=0)
+
+b40 = Button(toolbar8, relief=FLAT, compound= LEFT, text="new", command=donothing)
+b40.pack(side=LEFT, padx=0, pady=0)
+
+toolbar8.pack(side=TOP, fill=X)
+root.config(menu=menubar)
 
 
 root.mainloop()
